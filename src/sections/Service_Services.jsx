@@ -1,4 +1,4 @@
-import Service_Card from "./Service_Card";
+import Service_Card from "./Service_ServiceCard.jsx";
 
 function Service_Services(){
 

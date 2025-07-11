@@ -1,4 +1,4 @@
-import Button_Service from "./Button_Service";
+import Button_Service from "./Service_ServiceBtn";
 
 function Home_ServiceCard({ title, description, price }) {
 

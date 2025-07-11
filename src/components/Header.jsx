@@ -20,12 +20,12 @@ const Header = () => {
     <header className={`fixed top-0 left-0 w-full z-50 transition-colors duration-300 ${isScrolled ? 'bg-[#205C4A] shadow-md' : 'bg-transparent'}`}>
       <nav className="w-full flex justify-between items-center py-3.5 px-6 font-sans">
           <div className="flex justify-between items-center gap-4">
-              <div className="flex items-center">
+              <div className="flex justify-center items-center">
                   <Link to="/home">
-                      <img src="/logo.png" alt="logo"  className='w-[80px]'/>
+                      <img src="/logo.png" alt="logo"  className='w-[50px] sm:w-[60px]'/>
                   </Link>
                 <div className="text-white lg:hidden md:block sm:block" onClick={toggleMenu}>
-                    <i id="menu-icon" className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'} text-4xl sm:text-2xl`}></i>
+                    <i id="menu-icon" className={`bx ${isMenuOpen ? 'bx-x' : 'bx-menu'} text-3xl sm:text-3xl`}></i>
                 </div>
               </div>
               <div className="hidden lg:flex uppercase text-white font-semibold">
@@ -41,7 +41,7 @@ const Header = () => {
                   <a target='_blank' href="https://www.facebook.com/TinaMassageSpa/" className="bx bxl-facebook px-3 hover:text-[#205C4A] duration-200"></a>
               </div>
               <div className="uppercase text-white font-semibold">
-                  <Link to="/contact"className="border-2 border-white px-6 py-2 text-[16px] sm:text-[18px] hover:bg-[#205C4A] duration-200">
+                  <Link to="/contact"className="border-2 border-white px-2 py-2 text-sm sm:px-6 sm:py-2 sm:text-base md:px-8 md:py-3 md:text-md  hover:bg-[#205C4A] duration-200">
                     Call Now
                   </Link>
               </div>
