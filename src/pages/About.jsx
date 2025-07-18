@@ -1,5 +1,4 @@
 import Header from '../components/Header.jsx'
-import TeamCards from '../components/TeamCards.jsx';
 import Testimony from '../sections/Home_Testimony.jsx'
 import Expertise_Card from "../components/Expertise_Card";
 import Footer from '../components/Footer.jsx'
@@ -25,7 +24,7 @@ function About(){
                         <div className='py-4'>
                             <i className="bx bxs-quote-alt-left md:text-2xl  text-[#205C4A]"></i>
                             
-                            <p className="text-lg md:text-sm leading-relaxed">
+                            <p className="text-lg md:text-sm leading-relaxed text-gray-700">
                                 Nice place, affordable prices, not too crowded when I went. 
                                 There was also a cute dog there when I visited. 
                                 Went for a pedicure and was satisfied with the service. 
@@ -51,24 +50,21 @@ function About(){
                             className="w-full h-auto object-cover rounded-md"
                         /> 
                     </div>
-                    <div className='text-md'>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident 
-                        cupiditate magnam inventore sapiente dolor temporibus amet
-                         explicabo beatae quisquam architecto quo, a asperiores excepturi atque, 
-                         numquam culpa. Eligendi, omnis adipisci?</p> 
-                         <br />
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident 
-                        cupiditate magnam inventore sapiente dolor temporibus amet
-                         explicabo beatae quisquam architecto quo, a asperiores excepturi atque, 
-                         numquam culpa. Eligendi, omnis adipisci?</p>
-                         <br />
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident 
-                        cupiditate magnam inventore sapiente dolor</p>
+                    <div className='text-md text-gray-600'>
+                        <p>At Ocean Green Massage, we offer more than just a typical spa experience we provide a sanctuary 
+                        where you can truly unwind. Explore our wide variety of massage services, from tradition massage and
+                        aroma massages to specialized treatments designed to target muscle tension and stress. Each session 
+                        is thoughtfully tailored to your needs, ensuring you leave feeling refreshed, rebalanced, and deeply cared for.
+                        <br /><br />
+                        What sets us apart is the expertise behind every touch. Our team of highly trained and experienced 
+                        therapists led by the owner himself brings years of knowledge, skill, and passion to every treatment. 
+                        We’re committed to delivering not just relief, but a luxurious and restorative experience that elevates
+                        your well-being. At Ocean Green Massage, your comfort, care, and satisfaction are always our priority.</p> 
                     </div>
                 </div>
             </div>
             <div className="flex flex-col items-center py-16 px-4 sm:px-8 md:px-16 lg:px-24">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div className="text-gray-600 grid grid-cols-1 text-center sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
                     <Expertise_Card
                     icon="/beauty_icon.png"
                     title="Beauty"
@@ -78,61 +74,68 @@ function About(){
                     <Expertise_Card 
                     icon="/wellness_icon.png" 
                     title="Wellness"
-                    description="Promote balance, reduce stress, and support your overall well-being with massage treatments designed to restore both body and mind."/>
+                    description="Promote balance, reduce stress, and support your overall well-being with massage treatments designed to restore both body and mind."
+                    />
                     
                     <Expertise_Card
                     icon="/massage_icon.png"
                     title="Massage"
-                    description="Release stress and tension through expert massage techniques that heal, relax, and revitalize."/>
+                    description="Release stress and tension through expert massage techniques that heal, relax, and revitalize."
+                    />
                 </div>
+
                 <div className="py-7">
-                    <img src="/massage_room4.jpg" alt="expertise-image" className="rounded-md w-full max-w-6xl mx-auto"/>
+                    <img src="/massage_room4.jpg" alt="expertise-image" className="rounded-md w-full max-w-6xl mx-auto" />
                 </div>
-                <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-                    <div className='px-20'>
-                        <h1 className='font-bold text-4xl text-[#205C4A] py-4 sm:text-5x1'>24</h1>
-                        <p className='uppercase'>Experts</p>
+
+                <div className="grid grid-cols-2 gap-12 md:grid-cols-4 md:gap-20 max-w-6xl mx-auto text-center">
+                    <div className="px-4 sm:px-6 md:px-10">
+                        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-[#205C4A] py-2">16</h1>
+                        <p className="uppercase text-sm sm:text-base text-gray-700">Experts</p>
                     </div>
-                    <div className='px-20'>
-                        <h1 className='font-bold text-4xl text-[#205C4A] py-4 sm:text-5x1'>400+</h1>
-                        <p className='uppercase'>Happy clients</p>
+                    <div className="px-4 sm:px-6 md:px-10">
+                        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-[#205C4A] py-2">100+</h1>
+                        <p className="uppercase text-sm sm:text-base text-gray-700">Happy Clients</p>
                     </div>
-                    <div className='px-20'>
-                        <h1 className='font-bold text-4xl text-[#205C4A] py-4 sm:text-5x1'>20+</h1>
-                        <p className='uppercase'>offers</p>
+                    <div className="px-4 sm:px-6 md:px-10">
+                        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-[#205C4A] py-2">7</h1>
+                        <p className="uppercase text-sm sm:text-base text-gray-700">Offers</p>
                     </div>
-                    <div className='px-20'>
-                        <h1 className='font-bold text-4xl text-[#205C4A] py-4 sm:text-5x1'>15</h1>
-                        <p className='uppercase'>private rooms</p>
+                    <div className="px-4 sm:px-6 md:px-10">
+                        <h1 className="font-bold text-2xl sm:text-3xl md:text-4xl text-[#205C4A] py-2">10+</h1>
+                        <p className="uppercase text-sm sm:text-base text-gray-700">Private Rooms</p>
                     </div>
-                </div>
-            </div>  
-            <div className='flex flex-col items-center py-16 px-4 sm:px-8 md:px-16 lg:px-24 mb-[100px]'>
-                <div className='flex flex-col items-center text-center py-4'>
-                    <div className='bg-[#205C4A] w-[50px] h-[2px]'></div>
-                    <h1 className='text-[#205C4A] font-serif font-semibold md:text-4xl py-3.5'>Meet our team</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
-                     Inventore repellendus facilis,
-                    omnis unde veritatis</p>
-                </div>
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 max-w-6xl mx-auto'>
-                    <TeamCards
-                    img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                    name="Therapist 1"
-                    infos="This is where the therepist skills and experience are placed with."
-                    />
-                    <TeamCards
-                    img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                    name="Therapist 2"
-                    infos="This is where the therepist skills and experience are placed with."
-                    />
-                    <TeamCards
-                    img="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                    name="Therapist 3"
-                    infos="This is where the therepist skills and experience are placed with."
-                    />
                 </div>
             </div>
+            {/*
+            <div className="flex flex-col items-center py-16 px-4 sm:px-8 md:px-16 lg:px-24 mb-[100px]">
+                <div className="flex flex-col items-center text-center py-4 max-w-4xl">
+                    <div className="bg-[#205C4A] w-[50px] h-[2px] mb-2"></div>
+                    <h1 className="text-[#205C4A] font-serif font-semibold text-2xl md:text-4xl py-3.5">
+                    Meet the Owner
+                    </h1>
+                </div>
+                
+                <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between max-w-6xl w-full gap-8 mt-8">
+                    <div className="w-full lg:w-1/2 text-gray-600 text-base md:text-lg text-justify">
+                        <p>
+                            Ocean Green Massage is proudly operated by Mr. Clint Henry, a licensed Physical Therapist and Registered Nurse.
+                            With a strong background in healthcare and wellness, Mr. Henry not only manages the spa but also plays an active
+                            role in overseeing daily operations. In addition to his medical credentials, he is a trained and licensed Massage
+                            Therapist who personally supervises and mentors the team to ensure the highest standards of care and service.
+                        </p>
+                    </div>
+
+                    <div className="w-full lg:w-1/2">
+                        <img
+                            src="/four-season.webp"
+                            alt="owner image"
+                            className="w-full h-auto rounded-md shadow-md object-cover"
+                        />
+                    </div>
+                </div>
+            </div>
+            */}
             <Testimony/>
             <Footer/>
         </>

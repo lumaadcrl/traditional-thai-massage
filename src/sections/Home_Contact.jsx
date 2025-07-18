@@ -42,16 +42,13 @@ function Home_Contact() {
                 <div className="flex-1 flex flex-col justify-center sm:flex">
                         <div className="space-y-6">
                             <p className="flex items-center gap-3">
-                                <a href="https://www.instagram.com/explore/locations/916740021807660/ocean-green-massage/recent/" className="bx bxl-facebook text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
+                                <a href="https://www.facebook.com/TinaMassageSpa" className="bx bxl-facebook text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
                                 <span className="text-lg font-medium text-gray-700">Contact us on Facebook</span>
                             </p>
                             <p className="flex items-center gap-3">
                                 <a href="https://www.instagram.com/explore/locations/916740021807660/ocean-green-massage/recent/" className="bx bxl-instagram text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
                                 <span className="text-lg font-medium text-gray-700">Follow us on Instagram</span>
                             </p>
-                            <a href="#" className="inline-block uppercase font-bold bg-[#205C4A]  text-white px-8 py-4 duration-200 tracking-wider text-sm">
-                                SAVE UP TO 50% TODAY
-                            </a>
                         </div>
                 </div>
             </div>

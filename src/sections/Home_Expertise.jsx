@@ -12,7 +12,7 @@ function Home_Expertise(){
                 <div className="py-7">
                     <img src="/massage_room4.jpg" alt="expertise-image" className="rounded-md w-full max-w-6xl mx-auto"/>
                 </div>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto text-gray-600">
                     <Expertise_Card
                     icon="/beauty_icon.png"
                     title="Beauty"

@@ -10,7 +10,8 @@ function Footer(){
                         <Link to="/home">
                            <img src="/logo.png" alt="logo"  className='w-[80px]'/>
                         </Link>
-                        <p>Ocean Spa Massage is a serene sanctuary dedicated to restoring calm, balance, and complete rejuvenation of the body and mind</p>
+                        <p>Relax your body, calm your mind, and renew your
+                        spirit with treatments tailored for your total well-being.</p>
                     </div>
                     <div>
                         <h3 className="text-2xl font-serif font-semibold py-2.5">Services</h3>
@@ -25,7 +26,6 @@ function Footer(){
                     <div className="flex flex-col">
                         <h3 className="text-2xl font-serif font-semibold py-2.5">About</h3>
                         <Link to="/about" className="py-1">Our Story</Link>
-                        <Link to="/about" className="py-1">Experts</Link>
                         <Link to="/services" className="py-1">Pricing</Link>
                         <Link to="/contact" className="py-1">Contact Us</Link>
                     </div>

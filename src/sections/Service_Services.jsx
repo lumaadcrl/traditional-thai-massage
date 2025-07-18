@@ -9,8 +9,11 @@ function Service_Services(){
                     <div className='bg-[#205C4A] w-[100px] h-[2px] my-4'></div>
                     <h6 className="uppercase font-serif text-sm tracking-wider py-2 text-[#205C4A]">have a look at our</h6>
                     <h1 className="font-serif font-bold text-3xl sm:text-4xl py-2.5 text-[#205C4A]">Massage Therapy Center</h1>
-                    <p className="font-sans text-sm sm:text-base max-w-xl">
-                        Take a break that matters. Our massages help you feel lighter, calmer, and more energized.
+                    <p className="text-gray-600 font-sans sm:text-base max-w-xl">
+                        Browse through our range of massages designed to help you relax, recharge,
+                        and restore balance. Whether you're looking to ease tension, improve circulation,
+                        or simply unwind, we have a treatment tailored for you. Take a break that truly matters, feel lighter, 
+                        calmer, and more energized with every session.
                     </p>
                 </div>
                 {/* Body Massage (Image First on Mobile) */}

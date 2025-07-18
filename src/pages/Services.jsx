@@ -34,11 +34,8 @@ function Services(){
                         Relax. Refresh. Renew.
                     </h2>
                     <p className="max-w-xl mx-auto text-sm sm:text-base text-gray-200 mb-6">
-                        We provide professional, personalized massage therapies in a peaceful environment — where your comfort comes first.
+                        We provide professional, personalized massage therapies in a peaceful environment, where your comfort comes first.
                     </p>
-                    <Link to="/contact" className="bg-white text-[#205C4A] font-semibold px-6 py-3 rounded-md shadow-md hover:bg-gray-100 transition uppercase">
-                        Call an Appointment →
-                    </Link>
                 </div>
             </section>
             <Contact/>

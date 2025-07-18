@@ -1,4 +1,4 @@
-import Button from '../buttons/Appointment_Btn.jsx'
+import { Link } from 'react-router-dom';
 
 function Home_Hero() {
 
@@ -15,7 +15,9 @@ function Home_Hero() {
               Relax your body, calm your mind, and renew your <br /> spirit with
               treatments tailored for your total well-being.
             </p>
-            <Button/>
+          <Link to="/contact"className="uppercase text-black px-6 py-2 text-[16px] sm:text-[18px] bg-white hover:bg-[#205C4A] hover:text-white duration-200">
+              call an appointment  ➔
+          </Link> 
         </div>
     </section>
 

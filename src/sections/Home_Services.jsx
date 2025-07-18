@@ -27,7 +27,7 @@ function Home_Services(){
                         className="w-full h-auto object-cover rounded-md"
                     />
                 </div>
-                <div className="lg:col-span-1 bg-[#f1f8f6] rounded-lg p-6 mb-4 shadow-sm">
+                <div className="lg:col-span-1 bg-[#f1f8f6] rounded-lg p-6 mb-4 shadow-sm text-gray-600">
                     <Treatment_Item
                         number="1"
                         title="Four Seasons"
