@@ -51,7 +51,7 @@ function About(){
                         /> 
                     </div>
                     <div className='text-md text-gray-600'>
-                        <p>At Ocean Green Massage, we offer more than just a typical spa experience we provide a sanctuary 
+                        <p>At Traditional Thai Massage, we offer more than just a typical spa experience we provide a sanctuary 
                         where you can truly unwind. Explore our wide variety of massage services, from tradition massage and
                         aroma massages to specialized treatments designed to target muscle tension and stress. Each session 
                         is thoughtfully tailored to your needs, ensuring you leave feeling refreshed, rebalanced, and deeply cared for.
