@@ -37,8 +37,8 @@ const Header = () => {
             </div>
             <div className="flex justify-between items-center gap-4">
               <div className="flex font-semibold text-white text-[18px]">
-                  <a target='_blank' href="https://www.instagram.com/explore/locations/916740021807660/ocean-green-massage/recent/" className="bx bxl-instagram px-3"></a>
-                  <a target='_blank' href="https://www.facebook.com/profile.php?id=61578305049536" className="bx bxl-facebook px-3"></a>
+                  <a target='_blank' href="#" className="bx bxl-instagram px-3"></a>
+                  <a target='_blank' href="#" className="bx bxl-facebook px-3"></a>
               </div>
               <div className="uppercase text-white font-semibold">
                   <Link to="/contact"className="border-2 border-white px-2 py-2 text-sm sm:px-6 sm:py-2 sm:text-base md:px-8 md:py-3 md:text-md  hover:bg-[#205C4A] duration-200">

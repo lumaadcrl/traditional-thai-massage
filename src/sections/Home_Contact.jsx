@@ -21,7 +21,7 @@ function Home_Contact() {
                         <Contact_Infos 
                         icon="bx bx-map"
                         title="Our Location"
-                        description="Cebu City, 6000 Cebu, Basak Sudtunggan"
+                        description="Cebu City, 6000 Cebu, Lapu-Lapu City"
                         />
                         <hr className="text-gray-300 my-4" />
                         <div className="flex flex-col sm:flex-row gap-6">
@@ -33,7 +33,7 @@ function Home_Contact() {
                             <Contact_Infos 
                                 icon="bx bxs-store"
                                 title="Contact"
-                                description="Phone: 0927-623-2228"
+                                description="Phone: 0927-123-4567"
                             />
                         </div>
                     </div>
@@ -42,11 +42,11 @@ function Home_Contact() {
                 <div className="flex-1 flex flex-col justify-center sm:flex">
                         <div className="space-y-6">
                             <p className="flex items-center gap-3">
-                                <a href="https://www.facebook.com/profile.php?id=61578305049536" className="bx bxl-facebook text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
+                                <a href="#" className="bx bxl-facebook text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
                                 <span className="text-lg font-medium text-gray-700">Contact us on Facebook</span>
                             </p>
                             <p className="flex items-center gap-3">
-                                <a href="https://www.instagram.com/explore/locations/916740021807660/ocean-green-massage/recent/" className="bx bxl-instagram text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
+                                <a href="#" className="bx bxl-instagram text-[#205C4A]  border-2 border-[#205C4A] p-2 rounded-md text-2xl"></a>
                                 <span className="text-lg font-medium text-gray-700">Follow us on Instagram</span>
                             </p>
                         </div>

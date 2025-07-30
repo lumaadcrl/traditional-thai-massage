@@ -51,7 +51,7 @@ function About(){
                         /> 
                     </div>
                     <div className='text-md text-gray-600'>
-                        <p>At Traditional Thai Massage, we offer more than just a typical spa experience we provide a sanctuary 
+                        <p>At Spa Massage, we offer more than just a typical spa experience we provide a sanctuary 
                         where you can truly unwind. Explore our wide variety of massage services, from tradition massage and
                         aroma massages to specialized treatments designed to target muscle tension and stress. Each session 
                         is thoughtfully tailored to your needs, ensuring you leave feeling refreshed, rebalanced, and deeply cared for.
@@ -59,7 +59,7 @@ function About(){
                         What sets us apart is the expertise behind every touch. Our team of highly trained and experienced 
                         therapists led by the owner himself brings years of knowledge, skill, and passion to every treatment. 
                         We’re committed to delivering not just relief, but a luxurious and restorative experience that elevates
-                        your well-being. At Ocean Green Massage, your comfort, care, and satisfaction are always our priority.</p> 
+                        your well-being. Spa Massage, your comfort, care, and satisfaction are always our priority.</p> 
                     </div>
                 </div>
             </div>
@@ -107,35 +107,6 @@ function About(){
                     </div>
                 </div>
             </div>
-            {/*
-            <div className="flex flex-col items-center py-16 px-4 sm:px-8 md:px-16 lg:px-24 mb-[100px]">
-                <div className="flex flex-col items-center text-center py-4 max-w-4xl">
-                    <div className="bg-[#205C4A] w-[50px] h-[2px] mb-2"></div>
-                    <h1 className="text-[#205C4A] font-serif font-semibold text-2xl md:text-4xl py-3.5">
-                    Meet the Owner
-                    </h1>
-                </div>
-                
-                <div className="flex flex-col lg:flex-row items-center lg:items-start justify-between max-w-6xl w-full gap-8 mt-8">
-                    <div className="w-full lg:w-1/2 text-gray-600 text-base md:text-lg text-justify">
-                        <p>
-                            Ocean Green Massage is proudly operated by Mr. Clint Henry, a licensed Physical Therapist and Registered Nurse.
-                            With a strong background in healthcare and wellness, Mr. Henry not only manages the spa but also plays an active
-                            role in overseeing daily operations. In addition to his medical credentials, he is a trained and licensed Massage
-                            Therapist who personally supervises and mentors the team to ensure the highest standards of care and service.
-                        </p>
-                    </div>
-
-                    <div className="w-full lg:w-1/2">
-                        <img
-                            src="/four-season.webp"
-                            alt="owner image"
-                            className="w-full h-auto rounded-md shadow-md object-cover"
-                        />
-                    </div>
-                </div>
-            </div>
-            */}
             <Testimony/>
             <Footer/>
         </>

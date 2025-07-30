@@ -32,19 +32,19 @@ function Footer(){
                     <div>
                         <h3 className="text-2xl font-serif font-semibold py-2.5">Get in touch</h3>
                         <p className="py-1">Cebu City, 6000 Cebu</p>
-                        <p className="py-1">Basak Sudtunggan, Lapu-Lapu City</p>
-                        <p className="py-1">0927-623-2228</p>
-                        <p className="py-1">traditionalthaimassage3@gmail.com</p>
+                        <p className="py-1">Cebu, Lapu-Lapu City</p>
+                        <p className="py-1">0927-123-4567</p>
+                        <p className="py-1">example@gmail.com</p>
                     </div>
                 </div>
                 <hr className="mt-6 mb-6"/>
                 <div className="flex flex-col md:flex-row justify-between items-center text-sm">
                     <div className="mb-3 md:mb-0">
-                        <p>Copyright @ {new Date().getFullYear()} Traditional Thai Massage.</p>
+                        <p>Copyright @ {new Date().getFullYear()} Spa Massage Website Template.</p>
                     </div>
                     <div>
-                        <a href="https://www.instagram.com/explore/locations/916740021807660/ocean-green-massage/recent/" className="bx bxl-instagram px-2.5"></a>
-                        <a href="https://www.facebook.com/profile.php?id=61578305049536" className="bx bxl-facebook px-2.5"></a>
+                        <a href="#" className="bx bxl-instagram px-2.5"></a>
+                        <a href="#" className="bx bxl-facebook px-2.5"></a>
                     </div>
                 </div>
             </div>

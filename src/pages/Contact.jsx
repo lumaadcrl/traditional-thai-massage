@@ -21,7 +21,7 @@ function Contact() {
       <div className="h-[100vh] flex justify-center">
         <ErrorBoundary>
             <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3925.4046669012596!2d123.89197186657599!3d10.309463436163504!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a998e6cdaa95db%3A0x6a047e89d93f6ad1!2sOcean%20Green%20Massage!5e0!3m2!1sen!2sph!4v1751765009230!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125626.31423041529!2d123.9222655650462!3d10.275896055477476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a999fed973c41b%3A0x1ae9af03b1a02e2c!2sLapu-Lapu%2C%20Cebu!5e0!3m2!1sen!2sph!4v1753864835196!5m2!1sen!2sph"
                 className="w-full h-full border-0"
                 style={{ border: 0 }}
                 allowFullScreen=""
