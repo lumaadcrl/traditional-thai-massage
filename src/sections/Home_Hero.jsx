@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Home_Hero() {
 
   return (
-    <section className="bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/hero.jpg')] bg-cover bg-center min-h-screen flex items-center text-white py-16 px-4 sm:px-8 md:px-16 lg:px-24">
+    <section className="bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('/new-hero.jpg')] bg-cover bg-center min-h-screen flex items-center text-white py-16 px-4 sm:px-8 md:px-16 lg:px-24">
         <div className="max-w-2xl text-left">
             <h6 className="text-md font-bold font-serif uppercase">
               Welcome to Spa Massage

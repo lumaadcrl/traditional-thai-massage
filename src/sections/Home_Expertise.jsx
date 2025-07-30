@@ -10,7 +10,7 @@ function Home_Expertise(){
                     <h1 className="font-bold font-serif text-[#205C4A]  text-2xl sm:text-3xl md:text-5xl leading-snug py-3">Allow your body, mind and soul <br /> sense a haven of tranquility</h1>
                 </div>
                 <div className="py-7">
-                    <img src="/massage_room4.jpg" alt="expertise-image" className="rounded-md w-full max-w-6xl mx-auto"/>
+                    <img src="/massage-room.webp" alt="expertise-image" className="rounded-md w-full max-w-6xl mx-auto"/>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto text-gray-600">
                     <Expertise_Card

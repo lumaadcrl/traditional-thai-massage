@@ -5,19 +5,19 @@ function Home_Testimony() {
                 <i className="bx bxs-quote-alt-left text-4xl md:text-5xl mb-4"></i>
                 
                 <p className="text-lg md:text-xl font-medium leading-relaxed">
-                    Nice place, affordable prices, not too crowded when I went. 
-                    There was also a cute dog there when I visited. 
-                    Went for a pedicure and was satisfied with the service. 
-                    I actually went to Tina Hair, which is just right beside Tina Massage.
+                    Clean and relaxing environment with reasonable prices. 
+                    The place wasn’t crowded during my visit, making it a peaceful experience.
+                    I went in for a massage and was pleased with the service and overall atmosphere. 
+                    Conveniently located and a good option for some self-care time.
                 </p>
 
                 <div className="mt-8 flex flex-col items-center">
                     <img
-                        src="/review-img.png"
+                        src="/review-img.jpg"
                         alt="review-profile"
                         className="w-12 h-12 rounded-full object-cover"
                     />
-                    <p className="mt-3 font-semibold uppercase tracking-wide text-sm">Dannea Moneva</p>
+                    <p className="mt-3 font-semibold uppercase tracking-wide text-sm">Allison Madison</p>
                     <p className="text-sm text-gray-700">Cebu City</p>
                 </div>
             </div>

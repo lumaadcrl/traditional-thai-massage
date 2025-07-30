@@ -27,9 +27,9 @@ function Service_Services(){
                     </div>
                     <div className="md:w-1/2">
                         <Service_Card
-                        title="Tradition Massage"
-                        description="Traditional massage is a therapeutic practice that uses time-honored techniques such as deep pressure, stretching, and rhythmic movements to relieve muscle tension, improve circulation, and restore the body’s natural balance. It promotes physical healing while calming the mind and reconnecting you with your body’s natural rhythm."
-                        price="Starting at PHP 300 - 1hr"
+                        title="Traditional Massage"
+                        description="Traditional massage is a healing practice rooted in age-old methods, combining deep pressure, stretching, and rhythmic motions to ease muscle tension, enhance blood flow, and rebalance the body. It supports physical recovery while soothing the mind and helping you reconnect with your body’s natural flow."
+                        price="Starting at PHP 350 - 1hr"
                         />
                     </div>
                 </div>
@@ -38,15 +38,15 @@ function Service_Services(){
                 <div className="mt-[50px] flex flex-col md:flex-row gap-8 items-center justify-center">
                     <div className="order-2 md:order-1 md:w-1/2">
                         <Service_Card
-                        title="Aroma Massage"
-                        description="Aroma therapy is the art of using natural essential oils to calm the mind, ease the body, and lift the spirit. Through gentle inhalation and massage, each session brings you deep relaxation and holistic healing."
-                        price="Starting at PHP 400 - 1hr"
+                        title="Head Massage"
+                        description="Head massage is a relaxing and therapeutic technique that focuses on the scalp, neck, and shoulders. It helps relieve stress, reduce tension headaches, stimulate blood circulation, and promote relaxation. By targeting pressure points and improving energy flow, head massage can also enhance mental clarity and support overall well-being."
+                        price="Starting at PHP 450 - 1hr"
                         />
                     </div>
                     <div className="order-1 md:order-2 md:w-1/2">
                         <img
-                        src="aroma-massage.jpg"
-                        alt="aroma massage"
+                        src="head-massage.jpg"
+                        alt="head massage"
                         className="w-full h-auto rounded-md"
                         />
                     </div>
@@ -75,8 +75,8 @@ function Service_Services(){
                     <div className="order-2 md:order-1 md:w-1/2">
                         <Service_Card
                         title="Stone Massage"
-                        description="Stone massage is a deeply relaxing therapy that uses smooth, heated stones to ease muscle tension, improve circulation, and calm the nervous system. The warmth of the stones penetrates deep into the muscles, allowing for a more effective and soothing massage experience that promotes total body and mind relaxation."
-                        price="Starting at PHP 500 - 1hr"
+                        description="Stone massage is a soothing therapy that uses smooth, heated stones placed on key points of the body or used in gentle strokes. The warmth of the stones helps relax muscles, improve circulation, and ease tension more deeply than traditional massage alone. This treatment promotes both physical and emotional relaxation, making it ideal for relieving stress and restoring balance."
+                        price="Starting at PHP 600 - 1hr"
                         />
                     </div>
                     <div className="order-1 md:order-2 md:w-1/2">
@@ -92,16 +92,16 @@ function Service_Services(){
                 <div className="mt-[50px] flex flex-col md:flex-row gap-8 items-center justify-center">
                     <div className="md:w-1/2">
                         <img
-                        src="/herbal-massage.jpg"
-                        alt="herbal massage"
+                        src="/shiatsu-massage.jpg"
+                        alt="shiatsu massage"
                         className="w-full h-auto rounded-md"
                         />
                     </div>
                     <div className="md:w-1/2">
                         <Service_Card
-                        title="Herbal Massage"
-                        description="Herbal massage is a traditional healing therapy that uses warm herbal compresses filled with natural ingredients such as lemongrass, ginger, and turmeric. The heat and herbal properties work together to relieve muscle tension, reduce inflammation, and promote deep relaxation, while the soothing aroma calms the mind and rejuvenates the body."
-                        price="Starting at PHP 500 - 1hr"
+                        title="Shiatsu Massage"
+                        description="Shiatsu massage is a traditional Japanese therapy that uses finger pressure, stretches, and joint manipulations to restore energy flow and balance within the body. Focused on specific pressure points along the body’s meridians, shiatsu helps relieve tension, reduce stress, and improve circulation. This holistic approach not only addresses physical discomfort but also supports overall mental and emotional well-being."
+                        price="Starting at PHP 550 - 1hr"
                         />
                     </div>
                 </div>
@@ -110,15 +110,15 @@ function Service_Services(){
                 <div className="mt-[50px] flex flex-col md:flex-row gap-8 items-center justify-center">
                     <div className="order-2 md:order-1 md:w-1/2">
                         <Service_Card
-                        title="Ventosa Massage"
-                        description="Ventosa, also known as cupping therapy, is an ancient healing technique that uses suction cups to stimulate blood flow, release muscle tension, and remove toxins from the body. This therapy promotes natural healing, reduces pain, and restores balance by drawing out deep-seated tension and improving energy circulation."
+                        title="Neuromuscular Massage"
+                        description="Neuromuscular massage is a specialized form of deep tissue therapy that targets the root causes of muscle pain by focusing on trigger points, nerve pathways, and muscular imbalances. Using precise pressure and techniques, it helps release chronic tension, improve blood flow, and correct postural issues. Ideal for those with persistent pain or injury, this therapy promotes long-term healing and restores optimal muscle function."
                         price="Starting at PHP 500 - 1hr"
                         />
                     </div>
                     <div className="order-1 md:order-2 md:w-1/2">
                         <img
-                        src="/ventosa.jpg"
-                        alt="ventosa massage"
+                        src="/neuro-massage.jpg"
+                        alt="neuromuscular massage"
                         className="w-full h-auto rounded-md"
                         />
                     </div>
@@ -128,16 +128,16 @@ function Service_Services(){
                 <div className="mt-[50px] flex flex-col md:flex-row gap-8 items-center justify-center">
                     <div className="md:w-1/2">
                         <img
-                        src="/four-season.webp"
-                        alt="four season massage"
+                        src="/foot-massage.jpg"
+                        alt="foot massage"
                         className="w-full h-auto rounded-md"
                         />
                     </div>
                     <div className="md:w-1/2">
                         <Service_Card
-                        title="Four Season Massage"
-                        description="The Four Seasons Massage is a signature therapy inspired by the changing elements of nature. Each treatment is tailored to reflect the energy and needs of the seasons — from the refreshing renewal of spring to the deep relaxation of winter. Using seasonal oils, techniques, and rhythms, this massage nurtures your body, calms your mind, and restores inner balance all year round."
-                        price="Starting at PHP 600 - 1hr"
+                        title="Foot Massage"
+                        description="Foot massage is a relaxing and therapeutic treatment that focuses on the feet to relieve tension, improve circulation, and promote overall well-being. By applying pressure to specific points, it can help reduce stress, ease fatigue, and support better balance throughout the body. Whether for pure relaxation or targeted relief, foot massage offers a soothing escape that revitalizes both body and mind."
+                        price="Starting at PHP 300 - 1hr"
                         />
                     </div>
                 </div>

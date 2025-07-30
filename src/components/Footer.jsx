@@ -15,13 +15,13 @@ function Footer(){
                     </div>
                     <div>
                         <h3 className="text-2xl font-serif font-semibold py-2.5">Services</h3>
-                        <p className="py-1">Tradition Massage</p>
-                        <p className="py-1">Aroma Massage</p>
+                        <p className="py-1">Traditional Massage</p>
+                        <p className="py-1">Head Massage</p>
                         <p className="py-1">Thai Massage</p>
-                        <p className="py-1">Stone & Herbal Massage</p>
-                        <p className="py-1">Herbal Massage</p>
-                        <p className="py-1">Ventosa Massage</p>
-                        <p className="py-1">Four Season Massage</p>
+                        <p className="py-1">Stone Massage</p>
+                        <p className="py-1">Shiatsu Massage</p>
+                        <p className="py-1">Neuromuscular Massage</p>
+                        <p className="py-1">Foot Massage</p>
                     </div>
                     <div className="flex flex-col">
                         <h3 className="text-2xl font-serif font-semibold py-2.5">About</h3>

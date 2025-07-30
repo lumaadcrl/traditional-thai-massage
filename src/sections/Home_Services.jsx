@@ -30,16 +30,14 @@ function Home_Services(){
                 <div className="lg:col-span-1 bg-[#f1f8f6] rounded-lg p-6 mb-4 shadow-sm text-gray-600">
                     <Treatment_Item
                         number="1"
-                        title="Four Seasons"
-                        description="Reconnect with yourself and the world around you through this immersive experience. The Four Seasons Massage 
-                        harmonizes body and mind with techniques that change just as nature does — calming, revitalizing, and deeply restorative."
+                        title="Thai Massage"
+                        description="Thai massage is a traditional healing system that combines acupressure, assisted yoga stretches, and deep rhythmic compressions to release tension, increase flexibility, and restore the body’s energy flow. Performed fully clothed on a mat, it promotes physical alignment, mental clarity, and a deep sense of renewal."
                     />
                     <hr className='bg-gray-300'/>
                     <Treatment_Item
                         number="2"
-                        title="Aroma Therapy"
-                        description="Aroma therapy is the art of using natural essential oils to calm the mind, ease the body, and lift the spirit. 
-                        Through gentle inhalation and massage, each session brings you deep relaxation and holistic healing."
+                        title="Traditional Massage"
+                        description="Traditional massage is a healing practice rooted in age-old methods, combining deep pressure, stretching, and rhythmic motions to ease muscle tension, enhance blood flow, and rebalance the body. It supports physical recovery while soothing the mind and helping you reconnect with your body’s natural flow."
                     />                      
                 </div>
             </div>
